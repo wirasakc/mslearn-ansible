@@ -3,7 +3,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-# Starter pipeline
+steps:
 - task: Ansible@0
   inputs:
     ansibleInterface: 'remoteMachine'
